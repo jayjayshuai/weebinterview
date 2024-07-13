@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
   <article>
     <div>1</div>
@@ -14,21 +18,17 @@
 
 <style scoped>
 article {
-  display: grid;
   width: 300px;
   height: 300px;
-  border: 5px solid silver;
-  grid-template-rows: repeat(3, 1fr);
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border:5px solid red
 }
-
 div {
-  height: 100px;
-  width: 100px;
-  background-color: blueviolet;
   background-clip: content-box;
-  border: 1px solid blueviolet;
   padding: 10px;
-  box-sizing: border-box;
+  background-color: blue;
+
 }
 </style>
